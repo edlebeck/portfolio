@@ -21,6 +21,7 @@ header {
 header img {
     height: 100px;
     width: auto;
+    border-radius: 10px;
 }
 
 header nav {
@@ -48,8 +49,9 @@ header a {
     color: var(--second);
 }
 
-@media screen and (min-width: 575){
+@media screen and (min-width: 575px){
     header {
-        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
