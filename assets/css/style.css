@@ -19,23 +19,37 @@ header {
 }
 
 header img {
-    margin: 20px;
-    height: 75px;
+    height: 100px;
     width: auto;
 }
 
+header nav {
+    width: 100%;
+}
 header nav ul{
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 
 header a {
     display: flex;
-    justify-content: space-around;
     text-decoration: none;
-    padding: 15px;
+    padding: 25px;
     margin: 10px;
     color: var(--second);
     background-color: var(--third);
     border-radius: 10px;
+    font-size: 22px;
+}
+
+.about-me {
+    background-color: var(--third);
+    color: var(--second);
+}
+
+@media screen and (min-width: 575){
+    header {
+        display: inline-flex;
+    }
 }
