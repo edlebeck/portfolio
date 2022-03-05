@@ -53,5 +53,14 @@ header a {
     header {
         flex-direction: row;
         align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav {
+        width: auto;
+    }
+
+    header nav ul {
+        justify-content: end;
     }
 }
