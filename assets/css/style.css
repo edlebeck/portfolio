@@ -20,7 +20,6 @@ header {
 
 header img {
     height: 100px;
-    width: auto;
     margin: 10px;
     border-radius: 10px;
 }
@@ -45,7 +44,7 @@ header a {
     font-size: 22px;
 }
 
-.about-me {
+#about-me {
     background-color: var(--third);
     color: var(--second);
 }
