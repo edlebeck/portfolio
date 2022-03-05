@@ -13,17 +13,29 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     color: var(--second);
-    background-color: var(--third);
+    background-color: var(--main);
+}
+
+header img {
+    margin: 20px;
+    height: 75px;
+    width: auto;
 }
 
 header nav ul{
     display: flex;
-    list-style: none;;
+    list-style: none;
 }
 
 header a {
+    display: flex;
+    justify-content: space-around;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 15px;
+    margin: 10px;
     color: var(--second);
+    background-color: var(--third);
+    border-radius: 10px;
 }
