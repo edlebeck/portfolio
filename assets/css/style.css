@@ -18,6 +18,10 @@ header {
     background-color: var(--main);
 }
 
+header h1 {
+    font-size: 36px;
+}
+
 header img {
     height: 100px;
     margin: 10px;
@@ -36,12 +40,29 @@ header nav ul{
 header a {
     display: flex;
     text-decoration: none;
+    align-items: center;
     padding: 25px;
     margin: 10px;
     color: var(--second);
     background-color: var(--third);
     border-radius: 10px;
     font-size: 22px;
+    border: 2px solid transparent;
+}
+
+header a:hover {
+    border: 2px solid var(--second);
+}
+.hero {
+    width: 100%;
+    background-color: var(--main);
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
 }
 
 #about-me {
@@ -62,5 +83,10 @@ header a {
 
     header nav ul {
         justify-content: end;
+    }
+
+    .hero img {
+        max-height: 600px;
+        max-width: 1000px;
     }
 }
