@@ -85,23 +85,29 @@ header a:hover {
 }
 
 .primary {
+    display: flex;
     margin: 10px;
-    border: 3px solid var(--third);
-    background-color: var(--third);
 }
 
 .primary a img {
+    height: 400px;
+    width: 400px;
+}
+
+.secondary {
+    display: flex;
+    margin: 10px;
+}
+
+.secondary a img {
     height: 200px;
     width: 200px;
 }
 
-.secondary {
-    margin: 10px;
-    border: 3px solid var(--third);
-    background-color: var(--third);
-}
 #contact {
     background-color: var(--third);
+    display: flex;
+    justify-content: space-around;
 }
 
 @media screen and (min-width: 575px){
@@ -129,4 +135,5 @@ header a:hover {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
 }
